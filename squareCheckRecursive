@@ -1,0 +1,7 @@
+def sq(a,n):
+    return True if a * a == n else sq(a+1,n) if a * a < n else False if a * a > n else False
+         
+def is_square(n):    
+    return sq(0,n)
+
+#github barisx
